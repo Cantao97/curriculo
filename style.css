@@ -38,6 +38,28 @@ body {
 .profile {
   text-align: center;
 }
+.education {
+  background-color: #6276b7;
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 55px;
+  border: solid 5px #5eb5e7;
+}
+.exp-pro {
+  background-color: #6276b7;
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 55px;
+  border: solid 5px #5eb5e7;
+}
 .profile-information {
   position: absolute;
   top: 0;
@@ -73,10 +95,42 @@ body {
   justify-content: space-around;
   background-color: #6276b7;
   margin-top: 7px;
+  border: solid 5px #5eb5e7;
 }
-.profile-text-title {
+.profile-text-ProObj {
   padding-right: 5px;
+  width: 50%;
 }
 .profile-info-title {
   padding-left: 5px;
+}
+.profile-text {
+  padding: 12px;
+  width: 50%;
+}
+.profile-info-text {
+  border: solid 3px #001361;
+  padding: 15px;
+  height: 50%;
+}
+.profile-title-proObj {
+  font-size: 25px;
+}
+.profile-text-title {
+  font-size: 25px;
+}
+.education-title {
+  font-size: 25px;
+}
+.exp-pro-title {
+  font-size: 25px;
+}
+.empresas {
+  border: solid 3px #001361;
+  width: 50%;
+  padding: 12px;
+  margin-top: 3px;
+}
+.empresas-title {
+  font-size: 16px;
 }
